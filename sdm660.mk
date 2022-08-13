@@ -5,7 +5,7 @@
 #
 
 # GoogleCameraGo
-$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
+#$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
@@ -573,7 +573,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Zen Parts
-PRODUCT_PACKAGES += \
-    ZenParts
+#PRODUCT_PACKAGES += \
+#    ZenParts
 	
 	
