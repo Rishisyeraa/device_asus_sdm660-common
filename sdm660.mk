@@ -178,16 +178,9 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.biometrics.fingerprint@2.1.vendor
 
-# FM
+# Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.broadcastradio@1.0-service
-
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
+    android.hardware.gatekeeper@1.0.vendor
 
 # GPS
 PRODUCT_PACKAGES += \

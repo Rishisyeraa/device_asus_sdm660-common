@@ -62,6 +62,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+<<<<<<< HEAD
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
@@ -69,6 +70,8 @@ HWUI_COMPILE_FOR_PERF := true
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
+=======
+>>>>>>> f9a2d9d (sdm660-common:Drop FM)
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0xc170000 androidboot.hardware=qcom
